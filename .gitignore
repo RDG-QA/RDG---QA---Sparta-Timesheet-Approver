@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Credentials — NEVER commit these
+config/settings_local.py
+.env
+*.env
+
+# Reports (may contain sensitive employee data)
+reports/
+
+# IDE
+.vscode/
+.idea/
+*.swp
