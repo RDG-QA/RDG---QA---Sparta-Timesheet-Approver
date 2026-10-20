@@ -34,3 +34,18 @@
 
 **Summary:** 11 timecards processed — 9 APPROVED, 2 REJECTED
 **Processed by:** Sparta Timesheet Approvals Agent | **Date:** 03 September 2026
+
+---
+
+## Batch: 2026-10-20
+
+| Timecard ID | Resource | Period | Sparta Hrs | JIRA Total | Leave/Holiday | Decision | Rule |
+|---|---|---|---|---|---|---|---|
+| TCH-09-04-2026-352239 | Halimo Mohamud | 31/08/2026 – 06/09/2026 | 32.00 | 40.00 | 8.00 | ✅ APPROVE | Scenario 3: Gap +8.00h = leave/holiday hours (QDM-5254 Bank Holidays) |
+| TCH-09-11-2026-353488 | Olayemi Ojo | 07/09/2026 – 13/09/2026 | 16.00 | 38.75 | 24.00 | ❌ REJECT | Scenario 4: Gap +22.75h ≠ leave/holiday hours (24.00h) |
+| TCH-09-14-2026-353624 | Halimo Mohamud | 07/09/2026 – 13/09/2026 | 40.00 | 40.00 | 0.00 | ✅ APPROVE | Scenario 1: JIRA = Sparta |
+| TCH-09-21-2026-354686 | Halimo Mohamud | 14/09/2026 – 20/09/2026 | 22.50 | 40.00 | 0.00 | ❌ REJECT | Scenario 4: Gap +17.50h, no leave/holiday hours |
+| TCH-09-22-2026-354835 | Olayemi Ojo | 14/09/2026 – 20/09/2026 | 24.00 | 38.00 | 0.00 | ❌ REJECT | Scenario 4: Gap +14.00h, no leave/holiday hours |
+
+**Summary:** 5 timecards processed — 2 APPROVED, 3 REJECTED
+**Processed by:** Sparta Timesheet Approvals Agent | **Date:** 20 October 2026
