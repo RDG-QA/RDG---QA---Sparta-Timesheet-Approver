@@ -49,3 +49,17 @@
 
 **Summary:** 5 timecards processed — 2 APPROVED, 3 REJECTED
 **Processed by:** Sparta Timesheet Approvals Agent | **Date:** 20 October 2026
+
+---
+
+## Batch: 2026-11-11
+
+| Timecard ID | Resource | Period | Sparta Hrs | JIRA Total | Leave/Holiday | Decision | Rule |
+|---|---|---|---|---|---|---|---|
+| TCH-09-11-2026-353488 | Olayemi Ojo | 07/09/2026 – 13/09/2026 | 16.00 | 40.00 | 24.00 | ✅ APPROVE | Scenario 3: Gap +24.00h = leave/holiday hours (QDM-2849 Annual Leave; JIRA non-leave 16.00h = Sparta 16.00h) |
+| TCH-09-21-2026-354686 | Halimo Mohamud | 14/09/2026 – 20/09/2026 | 22.50 | 40.00 | 0.00 | ❌ REJECT | Scenario 4: Gap +17.50h, no leave/holiday hours (Sparta covers Mon–Wed only) |
+| TCH-09-22-2026-354835 | Olayemi Ojo | 14/09/2026 – 20/09/2026 | 24.00 | 40.00 | 0.00 | ❌ REJECT | Scenario 4: Gap +16.00h, no leave/holiday hours (Sparta covers Mon–Wed only) |
+
+**Notes:** All three were resubmissions by Sara Youssef (23/10 and 20/10) after the 20 October rejections. JIRA worklogs re-pulled via REST API on 11 November: Olayemi 07–13 Sep now totals 40.00h (was 38.75h on 20 Oct), which brings the gap in line with the 24.00h annual leave and clears the record for approval.
+**Summary:** 3 timecards processed — 1 APPROVED, 2 REJECTED
+**Processed by:** Sparta Timesheet Approvals Agent | **Date:** 11 November 2026
